@@ -136,3 +136,27 @@ body {
 /* .h1, h2, h3, h4 {
   font-family: "Montserrat-Regular";
 } */
+
+@media only screen and (max-width: 600px) {
+  #main {
+    background-attachment: local;
+  }
+  
+  #section-skills {
+    background-attachment: local;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main {
+    background-attachment: local;
+  }
+  
+  #section-skills {
+    background-attachment: local;
+  }
+  .my-name {
+    padding-top: 30%;
+    font-size: 50pt;
+  }
+}
