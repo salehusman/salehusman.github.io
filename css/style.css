@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Montserrat-Black'; /*a name to be used later*/
+  src: url('../fonts/Montserrat-Black.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Montserrat-Regular'; /*a name to be used later*/
+  src: url('../fonts/Montserrat-Regular.otf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Montserrat-Bold'; /*a name to be used later*/
+  src: url('../fonts/Montserrat-Bold.otf'); /*URL to font*/
+}
+
+@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+nav {
+  margin-bottom: 0;
+}
+
+.my-name {
+  font-family: "Montserrat-Black";
+  padding-top: 11%;
+  padding-left: 2%;
+  font-size: 72pt;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.507);
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.my-jd {
+  font-family: "Montserrat-Black";
+  padding-left: 2%;
+  color: white;
+}
+
+.my-email {
+  font-family: "Montserrat-Regular";
+  font-size: 11pt;
+}
+
+.portfolio-title {
+  font-family: "Montserrat-Bold";
+  font-size: 13.5pt;
+}
+
+nav, footer {
+  background: rgb(22,4,94);
+  background: linear-gradient(45deg, rgba(22,4,94,1) 33%, rgb(37, 21, 128) 96%);
+}
+
+footer {
+  font-family: "Montserrat-Bold";
+  font-size: 10pt;
+  color: rgb(224, 224, 224);
+}
+
+.animate-left-title {
+  position:relative;
+  animation:animateleft 0.8s;
+}
+
+.animate-left-jd, .animate-left {
+  position:relative;
+  animation:animateleft 1s;
+}     
+
+#main {
+  background-image: url("../imgs/hero.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 91.5vh;
+}
+
+#main .p1 {
+  position:relative;
+  animation:animateleft 1.2s;
+  padding-left: 2%;
+}
+
+.bg-trans {
+  background-color: #e7e7e78f;
+}
+
+#section-skills {
+  background-image: url("../imgs/main3.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#section-descr {
+  margin-top: -5%;
+  background-color: rgb(250, 250, 250);
+  position:relative;animation:animatebottom 0.8s
+}
+
+.my-objective {
+  font-family: "Montserrat-Regular";
+  padding: 2%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16pt;
+  word-spacing: 3px;
+  margin: 0;
+}
+
+.bg-catkrill {
+  background-color: #eefaf8a2;
+}
+
+.bg-prink {
+  background-color: #fff4f4a2;
+}
+
+.bg-blue {
+  background-color: #f4f6ff;
+}
+
+.card-design {
+    border-radius: 12px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+body {
+  background-color: rgb(236, 236, 236);
+}
+
+/* .h1, h2, h3, h4 {
+  font-family: "Montserrat-Regular";
+} */
