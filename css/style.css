@@ -133,6 +133,35 @@ body {
   background-color: rgb(236, 236, 236);
 }
 
+.paramountinvestment {
+  background-image: url("../imgs/paramountinvestment.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.dop {
+  background-image: url("../imgs/dop-logo-full.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.dorsa {
+  background-image: url("../imgs/dorsa.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.chbr {
+  background-image: url("../imgs/CHBR_web_logo_padding.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
 /* .h1, h2, h3, h4 {
   font-family: "Montserrat-Regular";
 } */
@@ -155,8 +184,34 @@ body {
   #section-skills {
     background-attachment: local;
   }
+  #section-skills .all_skills svg,img {
+    width: 18px;
+    height: 18px;
+  }
+  #section-skills td {
+    font-size: 9pt;
+  }
+  .card-design {
+    display: block;
+  }
+  .card-design svg {
+    width: 32px;
+    height: 32px;
+  }
   .my-name {
     padding-top: 30%;
     font-size: 50pt;
+  }
+  .paramountinvestment {
+    background-size: auto;
+  }
+  .dop {
+    background-size: auto;
+  }
+  .dorsa {
+    background-size: auto;
+  }
+  .chbr {
+    background-size: auto;
   }
 }
